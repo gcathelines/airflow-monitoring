@@ -442,10 +442,19 @@ services:
       - ELASTIC_HOSTS=https://es01:9200
       - KIBANA_HOSTS=http://kibana:5601
       - LOGSTASH_HOSTS=http://logstash01:9600
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    volumes:
+      - grafana-storage:/var/lib/grafana
 
 
 volumes:
   postgres-db-volume:
+  grafana-storage:
   certs:
     driver: local
   esdata01:
@@ -454,6 +463,7 @@ volumes:
     driver: local
   filebeatdata01:
    driver: local
+   
 
 networks:
  default:

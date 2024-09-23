@@ -1,6 +1,5 @@
 
 import textwrap
-import random
 from datetime import datetime, timedelta
 
 
@@ -12,7 +11,7 @@ from airflow.models.dag import DAG
 from airflow.operators.bash import BashOperator
 
 with  DAG(
-    "tutorial",
+    "errorDAG",
     # These args will get passed on to each operator
     # You can override them on a per-task basis during operator initialization
     default_args={
@@ -79,7 +78,7 @@ with  DAG(
         echo "{{ ds }}"
         echo "{{ macros.ds_add(ds, 7)}}"
     {% endfor %}
-    exit 0
+    exit 1
     """ 
     )
 
