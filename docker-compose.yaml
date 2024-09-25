@@ -441,7 +441,6 @@ services:
       - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
       - ELASTIC_HOSTS=https://es01:9200
       - KIBANA_HOSTS=http://kibana:5601
-      - LOGSTASH_HOSTS=http://logstash01:9600
   grafana:
     image: grafana/grafana-enterprise
     container_name: grafana
@@ -450,6 +449,14 @@ services:
       - '3000:3000'
     volumes:
       - grafana-storage:/var/lib/grafana
+  prometheus:
+      image: prom/prometheus
+      user: "0"
+      ports:
+          - 9090:9090
+      volumes:
+          - ./prometheus.yaml:/etc/prometheus/prometheus.yml
+          - ./prometheus/volume:/prometheus
 
 
 volumes:
