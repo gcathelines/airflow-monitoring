@@ -10,6 +10,17 @@ from airflow.models.dag import DAG
 
 # Operators; we need this to operate!
 from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
+
+import statsd
+from dags.util import HttpClient
+
+
+def metrics(**kwargs):
+    httpCl = HttpClient(context='random_user',base_url='https://randomuser.me/')
+    res = httpCl.get(endpoint='api')
+    print('testing',res)
+
 
 with  DAG(
     "cfp.tutorial",
@@ -44,7 +55,7 @@ with  DAG(
 ) as dag:
 
     # t1, t2 and t3 are examples of tasks created by instantiating operators
-    
+
     t1 = BashOperator(
         task_id="print_date",
         bash_command="date",
@@ -89,4 +100,6 @@ with  DAG(
         bash_command=templated_command,
     )
 
-    t1 >> [t2, t3]
+    t4 = PythonOperator(task_id="my_metrics", python_callable=metrics, dag=dag)
+
+    t4 >> t1 >> [t2, t3]

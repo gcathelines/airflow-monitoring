@@ -2,6 +2,16 @@
 mappings:
   # Airflow StatsD metrics mappings (https://airflow.apache.org/docs/apache-airflow/stable/logging-monitoring/metrics.html)
   # === Counters ===
+  - match: "*.testing_stats"
+    match_metric_type: counter
+    name: "my_counter_testing_stats"
+    labels:
+      airflow_id: "$1"
+  - match: "*.testing_stats_2"
+    match_metric_type: gauge
+    name: "my_gauge_testing_stats"
+    labels:
+      airflow_id: "$1"
   - match: "(.+)\\.(.+)_start$"
     match_metric_type: counter
     name: "af_agg_job_start"
