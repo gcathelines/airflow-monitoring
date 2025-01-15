@@ -1,0 +1,252 @@
+{'method': 'GET', 'path': '/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root//flag.txt', 'headers': {}, 'status_code': 301, 'response': '<a href="/root/flag.txt">Moved Permanently</a>.\n\n'}
+{'method': 'GET', 'path': '/root//flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': '<a href="/root/flag.txt">Moved Permanently</a>.\n\n'}
+{'method': 'GET', 'path': '/root//flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': '<a href="/root/flag.txt">Moved Permanently</a>.\n\n'}
+{'method': 'OPTIONS', 'path': '/root//flag.txt', 'headers': {}, 'status_code': 301, 'response': ''}
+{'method': 'OPTIONS', 'path': '/root//flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': ''}
+{'method': 'OPTIONS', 'path': '/root//flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': ''}
+{'method': 'TRACE', 'path': '/root//flag.txt', 'headers': {}, 'status_code': 301, 'response': ''}
+{'method': 'TRACE', 'path': '/root//flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': ''}
+{'method': 'TRACE', 'path': '/root//flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': ''}
+{'method': 'PROPFIND', 'path': '/root//flag.txt', 'headers': {}, 'status_code': 301, 'response': ''}
+{'method': 'PROPFIND', 'path': '/root//flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': ''}
+{'method': 'PROPFIND', 'path': '/root//flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': ''}
+{'method': 'GET', 'path': '/root%2fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root%2fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root%2fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root%2fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/proc/self/cwd/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/proc/self/root/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/proc/self/root/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/proc/self/root/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/proc/self/root/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/proc/self/root/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/fd/0/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/fd/0/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/fd/0/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/fd/0/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/fd/0/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/fd/1/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/fd/1/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/fd/1/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/fd/1/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/fd/1/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/sys/kernel/security/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/shm/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/shm/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/dev/shm/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/shm/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/shm/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/dev/shm/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/shm/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/shm/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/dev/shm/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/shm/root/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/shm/root/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/dev/shm/root/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/root/flag.*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/root/flag.*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/root/flag.*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.*', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.*', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/root/flag.*', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt/', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt/', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt/', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt.', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt.', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag.txt.', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/%2fflag.txt', 'headers': {}, 'status_code': 301, 'response': '<a href="/flag.txt">Moved Permanently</a>.\n\n'}
+{'method': 'GET', 'path': '/%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': '<a href="/flag.txt">Moved Permanently</a>.\n\n'}
+{'method': 'GET', 'path': '/%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': '<a href="/flag.txt">Moved Permanently</a>.\n\n'}
+{'method': 'OPTIONS', 'path': '/%2fflag.txt', 'headers': {}, 'status_code': 301, 'response': ''}
+{'method': 'OPTIONS', 'path': '/%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': ''}
+{'method': 'OPTIONS', 'path': '/%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': ''}
+{'method': 'TRACE', 'path': '/%2fflag.txt', 'headers': {}, 'status_code': 301, 'response': ''}
+{'method': 'TRACE', 'path': '/%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': ''}
+{'method': 'TRACE', 'path': '/%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': ''}
+{'method': 'PROPFIND', 'path': '/%2fflag.txt', 'headers': {}, 'status_code': 301, 'response': ''}
+{'method': 'PROPFIND', 'path': '/%2fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 301, 'response': ''}
+{'method': 'PROPFIND', 'path': '/%2fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 301, 'response': ''}
+{'method': 'GET', 'path': '/%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/%252fflag.txt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/%252fflag.txt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/%252fflag.txt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag%2etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag%2etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag%2etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag%2etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag%2etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag%2etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag%2etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag%2etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag%2etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag%2etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag%2etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag%2etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag%252etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag%252etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'GET', 'path': '/flag%252etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag%252etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag%252etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'OPTIONS', 'path': '/flag%252etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag%252etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag%252etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'TRACE', 'path': '/flag%252etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag%252etxt', 'headers': {}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag%252etxt', 'headers': {'Referer': '/root/flag.txt'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}
+{'method': 'PROPFIND', 'path': '/flag%252etxt', 'headers': {'Range': 'bytes=0-1'}, 'status_code': 200, 'response': 'The path provided is not a file or does not exist.'}

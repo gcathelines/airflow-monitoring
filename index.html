@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masked Script</title>
+</head>
+<body>
+    <h1>Masked URL Example</h1>
+    <script>
+        // Automatically fetch a URL and log the response
+        (async () => {
+            const targetUrl = 'https://ptu-ctf.s3.ap-southeast-1.amazonaws.com/password.txt'; // Target resource
+            try {
+                const response = await fetch(targetUrl, { mode: 'no-cors', credentials: 'include' });
+                console.log(response)
+                if (response.ok) {
+                    const data = await response.text();
+                    console.log('Response:', data);
+                } else {
+                    console.error('Request failed:', response.status, response.statusText);
+                }
+            } catch (error) {
+                console.error('Fetch Error:', error);
+            }
+        })();
+    </script>
+</body>
+</html>

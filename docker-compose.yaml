@@ -457,6 +457,83 @@ services:
       volumes:
           - ./prometheus.yaml:/etc/prometheus/prometheus.yml
           - ./prometheus/volume:/prometheus
+  pushgateway:
+    image: prom/pushgateway:latest
+    container_name: pushgateway
+    ports:
+      - "9091:9091" 
+  pushgateway-metrics-purger:
+    image: alpine:latest
+    command:
+    - sh
+    - -c
+    - |
+      # Check if base64 is installed, install it if missing
+      if ! which base64 &>/dev/null; then
+        echo "WARN: base64 is not installed. Installing dependencies..."
+        apk add --no-cache coreutils
+      fi
+      while true
+      do
+        # Fetch the metrics and process each one
+        curl -s http://localhost:9091/metrics | \
+        grep push_time_seconds | \
+        grep -Ev '^#' | \
+        while read line
+        do 
+          # Extract the metric value (timestamp of last push)
+          last_pushed=$(printf "%.f" `echo $line | awk '{print $2}'`)
+
+          # Extract the label part (inside the curly braces)
+          labels=$(echo $line | awk -F '{' '{print $2}' | awk -F '}' '{print $1}')
+
+          # Extract job name label
+          job_name=$(echo $labels | grep -o 'job=[^,]*' | cut -d '=' -f2 | sed 's/^"\(.*\)"$/\1/')  # Initialize the delete URL with the base URL
+
+          delete_url="http://localhost:9091/metrics/job/${job_name}"
+
+          # Loop through each label and base64 encode the values (except instance and job)
+          for label in $(echo $labels | tr ',' '\n')
+          do
+            label_name=$(echo $label | cut -d '=' -f1)
+            label_value=$(echo $label | cut -d '=' -f2)
+
+            # Remove leading and trailing quotes from the label value
+            label_value=$(echo "$label_value" | sed 's/^"\(.*\)"$/\1/')
+
+            # Skip the 'instance' and 'job' labels
+            if [ "$label_name" != "instance" ] && [ "$label_name" != "job" ]; then
+              # Only base64 encode if the value contains the '/' character
+              if [[ "$label_value" == *"/"* ]]; then
+                # Base64 encode the label value (URL-safe)
+                encoded_value=$(echo "$label_value" | tr -d '\n\r\t ' | $(which base64) | tr '+/' '-_' | tr -d '=')
+                # Append to the delete URL with @base64
+                delete_url="${delete_url}/${label_name}@base64/${encoded_value}"
+              else
+                # Append the label normally without encoding
+                delete_url="${delete_url}/${label_name}/${label_value}"
+              fi
+            fi
+          done
+
+          # Get the current UNIX timestamp
+          std_unix_time_now=$(date +%s)
+          
+          # Calculate the interval in seconds
+          interval_seconds=$((std_unix_time_now - last_pushed))
+          
+          # If the interval is greater than 1800 seconds, delete the metric
+          if [ $interval_seconds -gt 900 ]; then
+            # Execute the DELETE request and print the log
+            curl -X DELETE $delete_url
+            echo "$(date) - $std_unix_time_now, Last push $last_pushed, Interval $interval_seconds - Deleted metric: $delete_url"
+          else
+            # Log that the deletion was skipped
+            echo "$(date) - $std_unix_time_now. Purge action skipped. Last push $last_pushed, Interval $interval_seconds not satisfied - $delete_url"
+          fi
+        done
+        sleep 900
+      done 
 
 
 volumes:

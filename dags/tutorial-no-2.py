@@ -13,17 +13,19 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
 import statsd
-from dags.util import HttpClient
+from utl.http_client import HttpClient
+from metrics import on_success_callback, on_retry_callback, on_failure_callback, on_sla_miss
 
 
 def metrics(**kwargs):
     httpCl = HttpClient(context='random_user',base_url='https://randomuser.me/')
-    res = httpCl.get(endpoint='api')
-    print('testing',res)
+    httpCl.get(endpoint='api', kwargs=kwargs)
 
-
-with  DAG(
-    "cfp.tutorial",
+# TODO
+# Create wrapper to make SLA, Team, etc as required params
+# also include the callbacks automatically
+with DAG(
+    "tutorial",
     # These args will get passed on to each operator
     # You can override them on a per-task basis during operator initialization
     default_args={
@@ -38,20 +40,20 @@ with  DAG(
         # 'priority_weight': 10,
         # 'end_date': datetime(2016, 1, 1),
         # 'wait_for_downstream': False,
-        # 'sla': timedelta(hours=2),
+        'sla': timedelta(seconds=5),
         # 'execution_timeout': timedelta(seconds=300),
-        # 'on_failure_callback': util.on_failure, # or list of functions
-        # 'on_success_callback': util.on_success, # or list of functions
-        # 'on_retry_callback': another_function, # or list of functions
-        # 'sla_miss_callback': yet_another_function, # or list of functions
+        'team':'cfp',
+        # 'on_failure_callback': on_failure_callback, # or list of functions
+        # 'on_success_callback': on_success_callback, # or list of functions
+        # 'on_retry_callback': on_retry_callback, # or list of functions
         # 'on_skipped_callback': another_function, #or list of functions
         # 'trigger_rule': 'all_success'
     },
     description="A simple tutorial DAG",
-    schedule=timedelta(days=1),
+    schedule=timedelta(seconds=30),
     start_date=datetime(2021, 1, 1),
     catchup=False,
-    tags=["team:example", "testing-tag:another-tag"],
+    sla_miss_callback= on_sla_miss, # or list of functions
 ) as dag:
 
     # t1, t2 and t3 are examples of tasks created by instantiating operators
@@ -61,10 +63,14 @@ with  DAG(
         bash_command="date",
     )    
 
+    random_number = random.randint(0, 1)
+
+    cmd = f"sleep {random_number*60}"
+
     t2 = BashOperator(
         task_id="sleep",
         depends_on_past=False,
-        bash_command="sleep 5",
+        bash_command=cmd,
         retries=3,
     )
     t1.doc_md = textwrap.dedent(
@@ -84,14 +90,15 @@ with  DAG(
     This is a documentation placed anywhere
     """  # otherwise, type it like this
 
+    random_number = random.randint(0, 1)
+
     templated_command = textwrap.dedent(
         """
     {% for i in range(5) %}
         echo "{{ ds }}"
         echo "{{ macros.ds_add(ds, 7)}}"
     {% endfor %}
-    exit 0
-    """ 
+    """  +  f"exit {random_number}"
     )
 
     t3 = BashOperator(
@@ -101,5 +108,7 @@ with  DAG(
     )
 
     t4 = PythonOperator(task_id="my_metrics", python_callable=metrics, dag=dag)
+
+
 
     t4 >> t1 >> [t2, t3]
