@@ -16,6 +16,7 @@ logging.basicConfig(
 )
 
 
+
 class DAGFactory:
     def _send_task_duration_metrics(self, team, dag_id, task_id, status, duration, run_id):
         registry = CollectorRegistry()
